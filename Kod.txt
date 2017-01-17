@@ -1,0 +1,28 @@
+Glavna funkcija
+
+module modul(input ulaz0, ulaz1, output izlaz0, izlaz1, izlaz2, izlaz3, izlaz4, izlaz5, izlaz6, izlaz7);
+
+nor (izlaz0, ulaz0, ulaz1);
+nor (izlaz1, ulaz0, ulaz1);
+nor (izlaz2, ulaz0, ulaz1);
+nor (izlaz3, ulaz0, ulaz1);
+nor (izlaz4, ulaz0, ulaz1);
+nor (izlaz5, ulaz0, ulaz1);
+nor (izlaz6, ulaz0, ulaz1);
+nor (izlaz7, ulaz0, ulaz1);
+
+endmodule
+
+Implementacioni kod
+
+NET ulaz0 LOC = "L15";
+NET ulaz1 LOC = "L17";
+
+NET izlaz0 LOC = "J14";
+NET izlaz1 LOC = "J15";
+NET izlaz2 LOC = "K15";
+NET izlaz3 LOC = "K14";
+NET izlaz4 LOC = "E17";
+NET izlaz5 LOC = "P15";
+NET izlaz6 LOC = "F4";
+NET izlaz7 LOC = "R4";
